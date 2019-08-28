@@ -1,22 +1,20 @@
-
 body {	
 	
 	background: rgb(245,245,245);
-	font-size:40px;
+	font-size:35px;
 	font-family:'Helvetica';
-    text-align:center;
+  text-align:center;
+  color:white;
 
 
 }
 
 
 
-
-
 h1 {
-	font.color: #050708;
+	font.color: white;
 	font-family: 'Raleway', sans-serif;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
 	padding: 25px;
 }
@@ -24,19 +22,22 @@ h1 {
 a{
 	
 	text-decoration-color:none;
-	font-size:25px;
-	font-family: 'Ubuntu';
+	font-size:7em;
+	font-family: 'Shadows-into light', sans-serif;
 	text-align:center;
 	
 }
 
 
 h2{
-	 border: black;
+
+	 border:black;
 	 padding:20px 20px 30px;
 	 font-size: 20px;
+   margin-top:-17px;
 	 align-items: center;
 	 text-decoration-color: black;
+
 	 
 	
 }
@@ -52,11 +53,13 @@ h2{
 
 #banner{
   
-  background-image: url("images/NEGEV DESERT.jpg");
-  color:white;
-  padding:250px;
-  background-repeat:no-repeat;
+  background-image:url("images/tlv 1.jpg");
+  height:70%;
+  padding:100px;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
  
  
 }
@@ -64,12 +67,16 @@ h2{
 
 #banner.h1 {
   font-color: white;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
+  position:absolute;
+  width:100%;
+  margin-top:200%;
+
 }
 #banner p {
   font-color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
 
 
@@ -78,7 +85,7 @@ h2{
 
  .card{
     padding: 50px 50px 30px ;
- 	color: black;
+ 	  color: black;
     float;left;
     padding-bottom: 30px;
     padding-top:30px;
@@ -87,7 +94,7 @@ h2{
 
 
  .x{
- 	text-shadow: 1px 1px 5px black;
+ 	text-shadow: 1px 1px 3px black;
 
  }
 
@@ -102,21 +109,10 @@ h2{
    max-width:100%;
    padding: 50px;
    background: rgb(30, 30, 30);
-   color:lightgrey;
+   color:white;
    margin:0px;
 
 }
 
 
  
- 
-
-
-
-
-
-
-
-
-
-
